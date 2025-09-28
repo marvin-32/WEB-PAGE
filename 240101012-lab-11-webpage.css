@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0 10px;
+}
+nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #5cafff;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.education-entry {
+    margin-bottom: 30px; 
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.education-entry h2 {
+    margin-bottom: 15px; 
+}
+
+
+dl {
+    margin-left: 20px;
+}
+
+dt {
+    font-weight: bold;
+    color: #555;
+}
+
+dd {
+    margin-left: 0; 
+    margin-bottom: 10px;
+}
